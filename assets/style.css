@@ -208,11 +208,13 @@
       color: var(--muted);
       line-height: 1.6;
       margin-bottom: 12px;
+      padding-right: 10px;
     }
 
     .profile-socials {
       display: flex;
       gap: 8px;
+      flex-wrap: wrap;
     }
 
     .social-link {
