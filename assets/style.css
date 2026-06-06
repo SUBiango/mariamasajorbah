@@ -313,10 +313,24 @@
       justify-content: space-between;
     }
 
+    .product-prices {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+
     .product-price {
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 800;
       color: var(--blue);
+      line-height: 1.2;
+    }
+
+    .product-price-usd {
+      font-size: 10.5px;
+      font-weight: 600;
+      color: var(--muted);
+      line-height: 1.2;
     }
 
     .product-order-btn {
@@ -488,6 +502,25 @@
       text-align: center;
       padding: 20px;
     }
+
+    /* Photo testimonial grid */
+    .review-photos-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 6px;
+      background: var(--green-light);
+    }
+
+    .review-photos-grid img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      cursor: pointer;
+      display: block;
+      transition: opacity 0.2s;
+    }
+
+    .review-photos-grid img:hover { opacity: 0.88; }
 
     .screencast-placeholder .play-icon {
       width: 52px; height: 52px;
