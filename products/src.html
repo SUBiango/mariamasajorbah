@@ -3,6 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Icons & theme -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/favicon.svg" />
+  <meta name="theme-color" content="#1a7a4a" />
+
   <title>Super Root Coffee — SRC | HealthPlus SL</title>
 
   <meta name="description" content="Super Root Coffee with Tiger Milk Mushroom, Maca & Tongkat Ali increases energy, enhances concentration, and elevates mental clarity. Order from Mariama S. Bah on WhatsApp in Sierra Leone." />
@@ -12,7 +18,7 @@
   <meta property="og:type" content="product" />
   <meta property="og:url" content="https://mariamasajorbah.netlify.app/products/src.html" />
   <meta property="og:title" content="Super Root Coffee — SRC | HealthPlus SL" />
-  <meta property="og:description" content="Increases energy levels, enhances concentration and stamina, and elevates mental clarity. Tiger Milk Mushroom, Maca & Tongkat Ali. SLL 55,000. Order on WhatsApp." />
+  <meta property="og:description" content="Increases energy levels, enhances concentration and stamina, and elevates mental clarity. Tiger Milk Mushroom, Maca & Tongkat Ali. SLL 900. Order on WhatsApp." />
   <meta property="og:image" content="https://mariamasajorbah.netlify.app/public/images/products/SRC.png" />
   <meta property="og:image:width" content="800" />
   <meta property="og:image:height" content="800" />
@@ -20,7 +26,7 @@
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Super Root Coffee — SRC | HealthPlus SL" />
-  <meta name="twitter:description" content="Increases energy levels, enhances concentration and stamina, and elevates mental clarity. SLL 55,000." />
+  <meta name="twitter:description" content="Increases energy levels, enhances concentration and stamina, and elevates mental clarity. SLL 900." />
   <meta name="twitter:image" content="https://mariamasajorbah.netlify.app/public/images/products/SRC.png" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -169,6 +175,32 @@
       box-shadow: 0 6px 24px rgba(37,211,102,0.5);
     }
   </style>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Super Root Coffee \u2014 SRC",
+    "image": "https://mariamasajorbah.netlify.app/public/images/products/SRC.png",
+    "description": "Super Root Coffee with Tiger Milk Mushroom, Maca & Tongkat Ali increases energy, enhances concentration, and elevates mental clarity. Order from Mariama S. Bah on WhatsApp in Sierra Leone.",
+    "brand": {
+      "@type": "Brand",
+      "name": "SuperLife"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://mariamasajorbah.netlify.app/products/src.html",
+      "priceCurrency": "SLL",
+      "price": "900",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "HealthPlus SL"
+      }
+    }
+  }
+  </script>
 </head>
 <body>
 
@@ -186,7 +218,7 @@
   </nav>
 
   <div class="prod-hero">
-    <img src="/public/images/products/SRC.png" alt="Super Root Coffee" onerror="this.src='https://placehold.co/480x480/e8f5ee/1a7a4a?text=SRC'" />
+    <img src="/public/images/products/SRC.png" alt="Super Root Coffee" width="480" height="480" decoding="async" fetchpriority="high" data-fallback="https://placehold.co/480x480/e8f5ee/1a7a4a?text=SRC" />
   </div>
 
   <section class="prod-info">
@@ -224,5 +256,7 @@
   </footer>
 
 </div>
+<script src="/assets/script.js"></script>
+
 </body>
 </html>

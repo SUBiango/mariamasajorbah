@@ -3,6 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Icons & theme -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/favicon.svg" />
+  <meta name="theme-color" content="#1a7a4a" />
+
   <title>SNC — SuperLife Neuron Care | HealthPlus SL</title>
 
   <meta name="description" content="SuperLife SNC optimizes vision health, supports cognitive performance, and enhances mental sharpness. Order from Mariama S. Bah on WhatsApp in Sierra Leone." />
@@ -12,7 +18,7 @@
   <meta property="og:type" content="product" />
   <meta property="og:url" content="https://mariamasajorbah.netlify.app/products/snc.html" />
   <meta property="og:title" content="SNC — SuperLife Neuron Care | HealthPlus SL" />
-  <meta property="og:description" content="Optimizes vision health, supports cognitive performance, and enhances mental sharpness. SLL 55,000. Order on WhatsApp." />
+  <meta property="og:description" content="Optimizes vision health, supports cognitive performance, and enhances mental sharpness. SLL 1,200. Order on WhatsApp." />
   <meta property="og:image" content="https://mariamasajorbah.netlify.app/public/images/products/SNC.png" />
   <meta property="og:image:width" content="800" />
   <meta property="og:image:height" content="800" />
@@ -20,7 +26,7 @@
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="SNC — SuperLife Neuron Care | HealthPlus SL" />
-  <meta name="twitter:description" content="Optimizes vision health, supports cognitive performance, and enhances mental sharpness. SLL 55,000." />
+  <meta name="twitter:description" content="Optimizes vision health, supports cognitive performance, and enhances mental sharpness. SLL 1,200." />
   <meta name="twitter:image" content="https://mariamasajorbah.netlify.app/public/images/products/SNC.png" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -169,6 +175,32 @@
       box-shadow: 0 6px 24px rgba(37,211,102,0.5);
     }
   </style>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "SNC \u2014 SuperLife Neuron Care",
+    "image": "https://mariamasajorbah.netlify.app/public/images/products/SNC.png",
+    "description": "SuperLife SNC optimizes vision health, supports cognitive performance, and enhances mental sharpness. Order from Mariama S. Bah on WhatsApp in Sierra Leone.",
+    "brand": {
+      "@type": "Brand",
+      "name": "SuperLife"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://mariamasajorbah.netlify.app/products/snc.html",
+      "priceCurrency": "SLL",
+      "price": "1200",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "HealthPlus SL"
+      }
+    }
+  }
+  </script>
 </head>
 <body>
 
@@ -186,7 +218,7 @@
   </nav>
 
   <div class="prod-hero">
-    <img src="/public/images/products/SNC.png" alt="SuperLife SNC" onerror="this.src='https://placehold.co/480x480/e8f5ee/1a7a4a?text=SNC'" />
+    <img src="/public/images/products/SNC.png" alt="SuperLife SNC" width="480" height="480" decoding="async" fetchpriority="high" data-fallback="https://placehold.co/480x480/e8f5ee/1a7a4a?text=SNC" />
   </div>
 
   <section class="prod-info">
@@ -223,5 +255,7 @@
   </footer>
 
 </div>
+<script src="/assets/script.js"></script>
+
 </body>
 </html>
